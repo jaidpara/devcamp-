@@ -1,0 +1,134 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.filter {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/56ba55e9-4231-4440-ab13-9f8d013c6700/TH-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 60vh;
+    width: 100vw;
+}
+
+.hero {
+    padding: 20px;
+}
+
+nav img {
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav select {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    
+
+}
+nav .right {
+    display: flex;
+    gap: 10px;
+}
+
+nav .right button {
+
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+nav .selector {
+    display: flex;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 3px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+}
+
+nav select option {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: black;
+    width: 100px !important;
+}
+
+
+.section {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    padding: 0px 200px;
+    padding-top: 100px;
+
+}
+
+.section .poster {
+    display: flex;
+     
+
+}
+
+.section .poster .card {
+    padding: 20px;
+}
+
+.section .poster .card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+.section .poster .card img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.section .poster .card h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    height: 30vh;
+    color: beige;
+    padding-top: 100px;
+    
+
+}
+
+footer .container {
+    margin: 0px 200px;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+
+}
+
+footer .container a {
+    color: beige;
+    margin-bottom: 20px;
+
+}
+
+footer .container col {
+    
+}
